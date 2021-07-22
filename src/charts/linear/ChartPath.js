@@ -714,6 +714,7 @@ export function SvgComponent() {
       maxDist={100000}
       minDurationMs={0}
       shouldCancelWhenOutside={false}
+      disallowInterruption={true}
       {...longPressGestureHandlerProps}
       {...{ onGestureEvent: onLongPressGestureEvent }}
     >
